@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chat</title>
+    <style>
+      #messages {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+        height: 300px;
+        overflow-y: scroll;
+      }
+      .message {
+        border-bottom: 1px solid #eee;
+        padding: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Chat with Seller</h1>
+    <div id="messages"></div>
+    <textarea
+      id="messageInput"
+      placeholder="Type your message here..."
+    ></textarea>
+    <button id="sendButton">Send</button>
+
+    <script src="chat.js"></script>
+  </body>
+</html>

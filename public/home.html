@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Product Listings</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Product Listings</h1>
+    <div>
+      <input type="text" id="searchInput" placeholder="Search products..." />
+      <button onclick="searchProducts()">Search</button>
+      <button id="nearbyItemsBtn">Nearby Items</button>
+    </div>
+    <div id="productsContainer"></div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="home.js"></script>
+  </body>
+</html>
